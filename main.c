@@ -1,21 +1,16 @@
-
 #include <stdio.h>
 
 int main()
 {
-	int x, yvariables;
-	printf("scrie valoare lui x");
-	scanf("%d", &x);
-	printf("\n scrie valoare lui y ");
-	scanf("%d", &y);
+    int A, B, sum = 0;
 
+    printf("scrie 2 numere a si b: \n");
 
-	int temp = x;
+    scanf("%d%d", &A, &B);
 
-	x = y;
+    sum = A + B;
 
-	y = temp;
+    printf("suma numerelor: %d", sum);
 
-	printf("\ndupa ce leam schimbat: x = %d, y = %d", x, y);
-	return 0;
+    return 0;
 }
