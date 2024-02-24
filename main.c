@@ -2,15 +2,8 @@
 
 int main()
 {
-    int A, B, sum = 0;
+    int x = 5;
 
-    printf("scrie 2 numere a si b: \n");
-
-    scanf("%d%d", &A, &B);
-
-    sum = A + B;
-
-    printf("suma numerelor: %d", sum);
-
+    printf("numarul este %d", x);
     return 0;
 }
